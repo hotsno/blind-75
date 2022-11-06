@@ -1,2 +1,2 @@
-# blind-75
-Solutions to the Blind 75 LeetCode problems.
+# Blind 75 Solutions
+My solutions to the Blind 75 LeetCode problems.
