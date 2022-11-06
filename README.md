@@ -1,2 +1,2 @@
 # Blind 75 Solutions
-My solutions to the Blind 75 LeetCode problems.
+Solutions to the Blind 75 LeetCode problems (may be copied/influenced by NeetCode's solutions 🙂)
