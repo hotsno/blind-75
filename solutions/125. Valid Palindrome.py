@@ -1,15 +1,13 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        cleaned_arr = []
+        cleaned = []
         for c in s:
-            c = c.lower()
             if c.isalnum():
-                cleaned_arr.append(c)
-        cleaned_str = ''.join(cleaned_arr)
+                cleaned.append(c.lower())
 
-        l, r = 0, len(cleaned_str) - 1
+        l, r = 0, len(cleaned) - 1
         while l < r:
-            if cleaned_str[l] != cleaned_str[r]:
+            if cleaned[l] != cleaned[r]:
                 return False
             l += 1
             r -= 1
